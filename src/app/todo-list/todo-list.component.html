@@ -1,0 +1,15 @@
+
+    <div class="todo">
+        <div>
+            <input type="text"  ngModel="item">
+            <button (click)="addList()">Add</button>
+        </div>
+    <div>
+        <div *ngFor="let i of list;let index=index;">
+            <div>{{i}}</div>
+       
+        <input (click)="deleteList()" type="button" value="Delete"/> </div>
+
+    </div>
+
+    </div>

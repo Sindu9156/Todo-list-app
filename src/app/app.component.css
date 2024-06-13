@@ -1,0 +1,29 @@
+.todo{
+    margin: auto;
+    width: 30%;
+    border: 10px solid rgb(148, 210, 246) ;
+    background-color: rgb(148, 210, 246);
+}
+.todo1{
+    margin: auto;
+    width: 30%;
+    margin-left: 20%;
+    border: 10px solid rgb(148, 210, 246) ;
+    background-color: rgb(148, 210, 246);
+}
+.search{
+    margin-left: 20%;
+    outline: 0px;
+    outline-color: white;
+    border: white;
+
+}
+.button{
+     color:blue;
+    background-color: red;
+    border:white;
+}
+.out{
+    width:30%;
+   
+}

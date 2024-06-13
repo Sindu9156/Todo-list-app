@@ -1,0 +1,22 @@
+
+<div class="whole">
+<div class="todo">
+    
+    <div>      <input class="search" type="text" [(ngModel)]="item">
+
+        <button class="button"(click)="addList()">Add</button>
+
+    </div>
+</div>
+<br><br>
+<div>
+    <div class="todo" *ngFor="let i of list;let index=index;">
+       <div ><input type="text" class="search" value={{i}} disabled> 
+<input (click)="deleteList(index)" type="button" class="button"value="Delete"/>
+    
+</div>
+</div>
+
+</div>
+
+</div>
